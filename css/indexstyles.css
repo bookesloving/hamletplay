@@ -12,20 +12,20 @@ body {
 
 section.cover {
 text-align:center;
-width:70%;
-margin: 20px auto;
+width:20%;
+margin: 10px;
 }
 
 img.playimage {
 /* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
+max-width:30%;
+
 }
 
 img.shakespeareimage {
 /* you will need a width attribute in here */
 max-width:40%;
-padding:20px auto;
+
 }
 
 /* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
@@ -77,4 +77,68 @@ p.verseline {
 span.character_role {
 }
 span.stage_directions_inline {
+}
+
+body {
+font-family:verdana, arial, sans-serif;
+padding: 0;
+margin: 0;
+}
+
+
+h1 {
+font-size: 1.5em;
+color:rgb(208, 172, 20);
+padding: 0;
+margin: 0;
+font-family: georgia, serif;
+text-align: center;
+}
+div.everything {
+padding: 30px 50px;
+margin: 10px auto;
+width: auto;
+border:1px solid red;
+background-color: silver;
+}
+
+.details{
+font-size: 1em;
+color:black;
+}
+
+img {
+width:100%;
+display:block;
+margin: 70px auto;
+
+
+
+
+}
+
+div.everyting{
+margin: 10px auto;
+width:70%;
+padding: 20px;
+border:1px solid red;
+}
+
+@media only screen and (min-width:600px){
+
+  img {
+  max-width:30%;
+  /* display:flex; */
+  margin: 10px auto;
+  float:right;
+  display: block;
+}
+div.everything {
+  margin: 10px auto;
+  width: 70%;
+  max-width: 850px;
+  padding: 20px;
+overflow: auto;
+}
+
 }

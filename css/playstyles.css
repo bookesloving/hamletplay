@@ -1,0 +1,316 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
+body {
+  font-family: georgia,serif;
+  margin: 20px;
+}
+section.dramatis {
+  width: 70%;
+  margin: 12px auto;
+  max-width: 750px;
+  margin-top: 120px;
+}
+section.play {
+  width: 70%;
+  margin: 12px auto;
+  max-width: 750px;
+  border: 1px solid rgb(150, 39, 15);
+
+}
+div.sceneImage {
+}
+hr{
+  width:70%;
+  border: 1px solid rgb(150, 39, 15);
+}
+h1.act, h1.dramatishead {
+font-family: Luminari, fantasy;
+text-align: center;
+font-size: 1em;
+background-color:rgba(179, 152, 12, 0.85);
+color:white;
+padding: 12px 0;
+margin: 0;
+}
+p.character {
+  font-size:1.2em;
+  font-weight: bolder;
+  font-family:arial,georgia;
+  color: rgb(150, 39, 15);
+
+}
+p.charactername {
+  margin:0 12px 0 40px;
+  font-size: 1.2em;
+
+
+
+
+}
+h1.dramatishead {
+  font-size: 2em;
+
+
+}
+h2.firstscene {
+  text-align: center;
+  margin: 0 12px 0 40px;
+
+
+}
+h2.location {
+  color:rgb(150, 39, 15);
+  font-family: sans-serif;
+  font-size: 1em;
+  text-align: center;
+
+}
+p.play_location {
+
+
+}
+p.prose {
+margin: 0 12px 0 60px;
+font-size: 1.2em;
+font-weight: 400;
+
+
+}
+h2.scene {
+font-family:verdana;
+font-size: 2em;
+text-align: center;
+
+
+}
+
+p.song {
+text-align:center;
+margin: 0;
+font-size:2em;
+
+}
+h2.stagedirection {
+  margin: 0 12px 0 60px;
+  text-align:left;
+  font-size: 1em;
+  font-style: italic;
+  padding: 12px 0;
+
+}
+p.verseline {
+  margin: 0 12px 0 60px;
+  font-size: 1.1em;
+  text-align:justify;
+
+}
+span.character_role {
+color: rgb(150, 39, 15);
+
+}
+span.stage_directions_inline {
+
+}
+@media only screen and (min-width:600px){
+h1.act, h1.dramatishead {
+  font-size: 3em;
+
+}
+body{
+font-size: 80%;
+}
+
+  img {
+  width:30%;
+  display: block;
+  margin: 10px auto;
+  float:right;
+}
+div.everything {
+  margin: 10px auto;
+  width: 70%;
+  max-width: 850px;
+  padding: 20px;
+overflow: auto;
+}
+
+p.playtitle {
+  position:fixed;
+  left:0;
+  top:0;
+  /* height:1rem; */
+  padding: .6rem;
+  color:white;
+  font-family: jazzlet,fantasy;
+  font-size:1.1em;
+  z-index: 20;
+  margin:0;
+}
+.playtitle a {
+color: white
+}
+
+a.menu {
+  position:fixed;
+  top:0;
+  right:0;
+  color:white;
+  padding: .7rem;
+  color:white;
+  font-family: verdana, sans-serif;
+  font-size:.8em;
+  z-index: 20;
+  margin:0;
+}
+
+a.menu:hover {
+  color:red;
+  cursor:pointer;
+}
+
+
+
+.contents {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:rgb(150, 39, 15);
+  font-family: verdana, sans-serif;
+  font-size:.8em;
+  height:2.4rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+    padding-left: 0;
+    float:right;
+    overflow: hidden;
+    background-color:rgb(150, 39, 15);
+    width:0;
+    position:relative;
+    top: 2rem;
+
+}
+
+#navigation:target {
+  width: 30%;
+}
+
+li {
+    color: #fff;
+    display: block;
+    padding: .3rem .5rem;
+    position: relative;
+    text-decoration: none;
+    min-width: 4rem;
+}
+
+
+
+
+li a {
+  color: #fff;
+}
+
+li:hover a {
+    cursor: pointer;
+}
+
+
+
+ul li ul {
+  display:block;
+  width:100%;
+  padding:0;
+  left: 0;
+  font-size: .7em;
+  /* display: none; */
+  float:none;
+  margin:0;
+  position:static;
+}
+
+ul li ul li {
+min-width:4rem;
+}
+
+ul li:hover > ul, ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+}
+
+/* now follows the media query that displays everyhing correctly on wider screens */
+
+@media only screen and (min-width: 720px) {
+
+h1.act, h1.dramatishead {
+  font-size: 200%;
+}
+
+ul {
+  width:auto;
+  float:right;
+  overflow:visible;
+  position:static;
+  top:inherit;
+
+}
+
+
+li {
+  display:inline-block;
+  height:1.2rem;
+  padding: .6rem .5rem;
+}
+
+a.menu {
+  display:none;
+}
+
+ul li ul {
+  background: rgb(33, 135, 167);
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin: .8rem 0;
+  padding:0;
+  left: 0;
+  float:right;
+}
+
+li:hover {
+    background: rgb(120, 120, 120);
+    cursor: pointer;
+}
+
+ul li ul li:hover {
+background: rgb(96, 99, 89);
+}
+
+li:hover a {
+  color:white;
+
+}
+
+#navigation:target {
+  width: auto;
+}
+
+p.prose, p.verseline {
+margin: 0 12px 0 60px;
+}
+
+p.prose {
+  margin-bottom: 12px;
+}
+}
