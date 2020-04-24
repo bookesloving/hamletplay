@@ -1,5 +1,3 @@
-# Some extra texts
+# The Repository for your Shakespeare Play Web page
 
-The _synopsis.md_ file lists all of the pays with a short description and detals about performance etc. You can extract for your play.
-
-The _lambstales.txt_ document is by Charles and Mary Lamb, and your play may be included in this text. Use some of this if you like.
+You will be using InDesign to export the HTML and the file for the play should be put into the docs folder. This will then be linked from the `index.html` file that you will need to create or edit the existing one.
