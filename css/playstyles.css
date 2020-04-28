@@ -124,10 +124,9 @@ font-size: 80%;
 }
 
   img {
-  width:40.5%;
-  display: block;
-  margin: 10px auto;
+  width:100%;
   float:center;
+  border: 1px solid grey
 }
 div.everything {
   margin: 10px auto;
