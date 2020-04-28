@@ -124,7 +124,7 @@ font-size: 80%;
 }
 
   img {
-  width:40%;
+  width:39.5%;
   display: block;
   margin: 10px auto;
   float:center;
@@ -254,7 +254,7 @@ ul li:hover > ul, ul li ul:hover {
 
 /* now follows the media query that displays everyhing correctly on wider screens */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
 
 h1.act, h1.dramatishead {
   font-size: 200%;
