@@ -44,7 +44,7 @@ p.character {
 p.charactername {
   margin:0 12px 0 40px;
   font-size: 1.2em;
- 
+
 
 
 
@@ -111,6 +111,7 @@ p.verseline {
 }
 span.character_role {
 color: rgb(150, 39, 15);
+padding: 20px
 
 
 }
