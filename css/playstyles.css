@@ -78,7 +78,7 @@ p.prose {
 margin: 0 12px 0 60px;
 font-size: 1.2em;
 font-weight: 400;
-text-align: left;
+text-align: justify;
 padding-right: 2em;
 padding-left: 2em;
 
@@ -344,6 +344,11 @@ p.prose {
     width:50%;
     display:block;
     margin:12px auto;
+  }
+      img.landscape {
+        width:95%;
+        display:block;
+        margin:12px auto;
 
 
 }
