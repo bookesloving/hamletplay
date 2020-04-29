@@ -342,7 +342,7 @@ p.prose {
 }
 
     button {
-  float: inherit;
+  float:left;
   display:inline-block;
   padding:0.35em 1.2em;
   border:1px solid #FFFFFF;
