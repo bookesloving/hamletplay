@@ -130,8 +130,15 @@ font-size: 80%;
 
   img {
   width:100%;
-  text-align: center;
+  display: block;
   border: 1px solid grey
+  
+}
+  img.portrait {
+    width:60%;
+    display:block;
+    margin:12px auto;
+}
 }
 div.everything {
   margin: 10px auto;
