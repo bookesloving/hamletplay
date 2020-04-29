@@ -328,6 +328,10 @@ p.prose {
   margin-bottom: 12px;
 }
 
+  img.portrait {
+    width:50%;
+    display:block;
+    margin:12px auto;
 
 
 .video-box {
