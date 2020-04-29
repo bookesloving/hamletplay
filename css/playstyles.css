@@ -332,33 +332,37 @@ p.prose {
     width:50%;
     display:block;
     margin:12px auto;
+
+}
+
+
     button {
-float:right;
-display:inline-block;
-padding:0.35em 1.2em;
-border:1px solid #FFFFFF;
-margin:0 0.3em 0.3em 0;
-border-radius:0.8em;
-box-sizing: border-box;
-text-decoration:none;
-font-family:'Roboto',sans-serif;
-font-weight:300;
-color:#FFFFFF;
-text-align:center;
-}
-button.pause {
-  background: orange;
-}
-button.play {
-  background: green;
-}
-button.stop {
-  background: red;
-}
-button:hover{
-background-color:black;
-color:white;
-}
+  float:right;
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:1px solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.8em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  }
+  button.pause {
+    background: orange;
+  }
+  button.play {
+    background: green;
+  }
+  button.stop {
+    background: red;
+  }
+  button:hover{
+  background-color:black;
+  color:white;
+  }
 
 
 .video-box {
