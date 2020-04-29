@@ -109,7 +109,7 @@ p.verseline {
 }
 span.character_role {
 color: rgb(150, 39, 15);
-padding: inherit;
+padding: 12px 0;
 
 }
 span.stage_directions_inline {
