@@ -52,7 +52,8 @@
 			<h1 class="act"><a id="_idTextAnchor001"></a>ACT I. </h1>
 			<h2 class="firstscene"><span class="all-scene"><a id="_idTextAnchor002"></a>Scene I.</span></h2>
 			<h2 class="location">Elsinore. A platform before the Castle.</h2>
-			<img src="images/ghost.jpg" alt="Picture of a dead king" />
+			<img
+			img src="images/ghost.jpg" alt="Picture of a dead king" />
 			<h2 class="stagedirection balance-text">Enter two Sentinels-[first,] Francisco, [who paces up and down at his post; then] Bernardo, <span class="stage_directions_inline">[who approaches him]</span>.</h2>
 			<p class="character">Bernardo</p>
 			<p class="verseline">Who’s there.?</p>
@@ -3180,6 +3181,16 @@
 			<h2 class="firstscene"><span class="all-scene"><a id="_idTextAnchor015"></a>Scene I.</span></h2>
 			<h2 class="location">Elsinore. A room in the Castle.</h2>
 			<h2 class="stagedirection balance-text">Enter King and Queen, with Rosencrantz and Guildenstern.</h2>
+
+			<audio id="actIVscene1">
+		  <source src="assets/hamlet_4_64kb.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio>
+
+		<button class="play" onclick="document.getElementById('act1scene1').play()">Play Speech</button>
+		<button class="pause" onclick="document.getElementById('act1scene1').pause()">Pause Speech</button>
+		<button class="stop" onclick="document.getElementById('act1scene1').pause(); document.getElementById('act1scene1').currentTime = 0;">Stop Speech</button>
+
 			<p class="character">King</p>
 			<p class="verseline">There’s matter in these sighs. These profound heaves</p>
 			<p class="verseline">You must translate; ‘tis fit we understand them.</p>
