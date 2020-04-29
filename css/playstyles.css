@@ -16,7 +16,6 @@ section.play {
   max-width: 750px;
   border: 1px solid rgb(150, 39, 15);
 
-
 }
 div.sceneImage {
 }
@@ -48,12 +47,9 @@ p.charactername {
 
 
 
-
-
 }
 h1.dramatishead {
   font-size: 2em;
-
 
 
 }
@@ -82,8 +78,6 @@ font-weight: 400;
 text-align: justify;
 padding-right: 2em;
 padding-left: 2em;
-
-
 
 
 }
@@ -402,4 +396,5 @@ p.prose {
 }
 iframe{
     border-width: 0px;
+}
 }
