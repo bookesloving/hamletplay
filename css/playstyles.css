@@ -39,6 +39,7 @@ p.character {
   font-family:arial,georgia;
   color: rgb(150, 39, 15);
   text-align: left;
+  padding: 20px
 
 }
 p.charactername {
@@ -111,7 +112,7 @@ p.verseline {
 }
 span.character_role {
 color: rgb(150, 39, 15);
-padding: 20px
+
 
 
 }
